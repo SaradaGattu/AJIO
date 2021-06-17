@@ -1,5 +1,13 @@
 import { Component } from '@angular/core';
 
+
+interface Products{
+  id: Number;
+  title: String;
+  desc: String;
+  price: Number;
+}
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -7,4 +15,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'AJIO';
+
+
 }
